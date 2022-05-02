@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+:root
+{
+    --color-primary: #fc5050;
+    --color-light-gray: #e0e0e0;
+    --color-gray:#727272;
+    --color-dark-gray: #373737;
+    --color-dark-background: #0C0C0C;
+    --color-light-background: #FFF;
+
+    --width-var: 92%;
+    --min-width-var: 6rem; 
+    
+    --width-special: 95%;
+    --max-width-special: 50rem;
+
+    --border-radius: 2rem;
+
+    --button-padding: 0.9rem 1rem;
+
+    --gap: 0.6rem;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    appearance: none;
+    border: none;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+h1
+{
+    font-family: 'Roboto';
+    font-weight: 100;
+    font-size: 0.8rem;
+    color: var(--color-light-background);
+    text-align: center;
+    margin-top: 1.4rem;
+}
+
+.button 
+{
+    font-family:'Roboto';
+    font-weight: 400;
+    border-radius: var(--border-radius);
+    color: var(--color-light-background);
+    font-size: 1.3rem;
+    width:var(--width-var);
+    min-width: var(--min-width-var);
+    padding: var(--button-padding);
+    text-align:center;
+    cursor: pointer;
+    margin-bottom:var(--gap);
+    margin-right: var(--gap);
+}
+
+.button1
+{
+    background-color: var(--color-primary);
+    color: var(--color-light-background);
+} 
+.button2{background-color: var(--color-dark-gray);} 
+
+body{background-color: var(--color-dark-background);}
+
+.special
+{
+    width: var(--width-special);
+}
+
+table
+{   
+    width: 40%;  
+    table-layout: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.output
+{   
+    background: transparent;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    transform: translateX(-0.5rem);
+    justify-content: center;
+    width: 39%;
+    text-align: right;
+    min-width: 26.4rem;
+}
+
+.textview
+{
+    font-family:'Roboto';
+    font-weight: 400;
+    font-size:5rem;
+    height: 4.5rem;
+    color: var(--color-light-background);
+    margin-bottom: 1rem;
+}
+
+.history
+{
+    font-family:'Roboto';
+    font-weight: 300;
+    color: var(--color-gray);
+    font-size:2rem;
+    margin-top: 5rem;
+    margin-bottom: 0.6rem;
+}
+
