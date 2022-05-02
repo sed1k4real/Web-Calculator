@@ -1,2 +1,2 @@
 # Calculator
-Responsive calculator design (mini-project)
+Responsive web calculator design (mini-project)
